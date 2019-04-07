@@ -8,5 +8,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  */
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
+    static {
+        System.out.println("Loading MVC java based configuration...");
+    }
+
 
 }
